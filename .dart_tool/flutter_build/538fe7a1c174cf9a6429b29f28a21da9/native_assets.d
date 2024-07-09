@@ -1,0 +1,1 @@
+ /Users/abdurahman/Documents/personals/projects/Tests/crowdin_briive/.dart_tool/flutter_build/538fe7a1c174cf9a6429b29f28a21da9/native_assets.yaml: 
