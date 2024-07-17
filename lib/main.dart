@@ -6,12 +6,10 @@ import 'package:flutter_gen/gen_l10n/crowdin_localizations.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Crowdin.init(
-    distributionHash: '1d63c79fec62ac9aba455a8qiym', //your distribution hash
+    distributionHash: '1d63c79fec62ac9aba455a8qiym',
     connectionType: InternetConnectionType.any,
     updatesInterval: const Duration(minutes: 25),
-
-    //uncomment next lines to enable real-time preview feature
-
+    
     withRealTimeUpdates: true,
     authConfigurations: CrowdinAuthConfig(
       clientId: 'VZYmwo5Lv2CD6wukb27d',
